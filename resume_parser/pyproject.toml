@@ -1,0 +1,41 @@
+[tool.poetry]
+name = "resume-parser"
+version = "0.1.0"
+description = "A simple resume parser API using FastAPI"
+authors = ["Baptiste Doyen <bap.doyen@gmail;com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10.0"
+fastapi = "^0.68.2"
+python-multipart = "^0.0.6"
+uvicorn = "^0.15.0"
+spacy = "^3.5.1"
+# spacy-transformers = "^1.2.3"
+pydantic = "^1.8.2"
+gender-guesser = "^0.4.0"
+transformers = "^4.29.1"
+onnx = "^1.14.0"
+onnxruntime = "^1.14.1"
+optimum = "^1.8.5"
+phonenumbers = "^8.13.11"
+python-dateutil = "^2.8.2"
+urlextract = "^1.8.0"
+nameparser = "^1.1.2"
+pdftotext = "^2.2.2"
+fuzzywuzzy = "^0.18.0"
+python-Levenshtein = "^0.21.0"
+pycountry = "^22.3.5"
+pandas = "^2.0.1"
+locationtagger = "^0.0.1"
+nltk = "^3.8.1"
+langdetect = "^1.0.9"
+en-core-web-sm = {url = "https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.5.0/en_core_web_sm-3.5.0.tar.gz"}
+
+[tool.poetry.dev-dependencies]
+black = "^23.3.0"
+pytest = "^6.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

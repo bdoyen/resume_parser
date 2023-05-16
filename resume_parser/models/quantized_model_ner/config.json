@@ -1,0 +1,49 @@
+{
+  "_name_or_path": "/var/folders/23/n2t0xtjd7jddq0grr1wmcw480000gn/T/tmpx_gqg8sl",
+  "activation": "gelu",
+  "architectures": [
+    "DistilBertForTokenClassification"
+  ],
+  "attention_dropout": 0.1,
+  "dim": 768,
+  "dropout": 0.1,
+  "hidden_dim": 3072,
+  "id2label": {
+    "0": "CARDINAL",
+    "1": "GPE",
+    "2": "Phone",
+    "3": "Skills",
+    "4": "ORG",
+    "5": "EducationDegree",
+    "6": "ExperianceYears",
+    "7": "DATE",
+    "8": "PERSON",
+    "9": "Designation",
+    "10": "O"
+  },
+  "initializer_range": 0.02,
+  "label2id": {
+    "CARDINAL": 0,
+    "DATE": 7,
+    "Designation": 9,
+    "EducationDegree": 5,
+    "ExperianceYears": 6,
+    "GPE": 1,
+    "O": 10,
+    "ORG": 4,
+    "PERSON": 8,
+    "Phone": 2,
+    "Skills": 3
+  },
+  "max_position_embeddings": 512,
+  "model_type": "distilbert",
+  "n_heads": 12,
+  "n_layers": 6,
+  "pad_token_id": 0,
+  "qa_dropout": 0.1,
+  "seq_classif_dropout": 0.2,
+  "sinusoidal_pos_embds": false,
+  "tie_weights_": true,
+  "transformers_version": "4.29.1",
+  "vocab_size": 30522
+}
